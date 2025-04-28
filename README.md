@@ -15,9 +15,9 @@ Unlike learning-based methods that require large datasets and heavy training, th
 - ✅ Removes redundant waypoints and smoothens abrupt turns.
 - ✅ Shortens paths using constrained visibility checks.
 -  ✅ Applies multiple **trajectory smoothing** methods:
-  - P-Controller Based Smoothing
-  - Bézier Curve Smoothing
-  - Rational Quadratic Bézier Curve Smoothing
+  -- P-Controller Based Smoothing
+  -- Bézier Curve Smoothing
+  -- Rational Quadratic Bézier Curve Smoothing
 - ✅ Imposes **minimal computational overhead**.
 - ✅ No requirement for training data or model fine-tuning.
 - ✅ Scalable to **arbitrary maze sizes**.
