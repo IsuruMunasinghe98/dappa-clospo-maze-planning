@@ -1,3 +1,9 @@
+class Cell:
+    def __init__(self):
+        self.parent_i = 0
+        self.parent_j = 0
+        self.distance = float('inf')
+
 def find_dijkstra(grid, src, dest):
     ROW = len(grid)
     COL = len(grid[0]) if ROW > 0 else 0
