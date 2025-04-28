@@ -40,9 +40,3 @@ K = 1 # DAPPA constant
 KP = 0.7 # p-controller kp value
 THRESHOLD = 0.05 # p-controller threshold
 STEP_LIMIT = 10000 # p-controller points generation steps
-
-class Cell:
-    def __init__(self):
-        self.parent_i = 0
-        self.parent_j = 0
-        self.distance = float('inf')
