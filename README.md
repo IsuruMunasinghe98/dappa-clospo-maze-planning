@@ -80,20 +80,42 @@ Further streamline the path by directly connecting waypoints that are visible to
 
 ---
 
-## Results
+# Results Overview
 
-### 10x10 Grid
-
-| Dijkstra | Simplified (CLOSPO + DAPPA) | After P Controller | Quadratic Bezier | Rational Quadratic Bezier |
-|:--------:|:---------------------------:|:------------------:|:----------------:|:-------------------------:|
-| ![](images/10x10_dijkstra.png) | ![](images/10x10_simplified.png) | ![](images/10x10_p_controller.png) | ![](images/10x10_quadratic_bezier.png) | ![](images/10x10_rational_quadratic_bezier.png) |
+This section presents the path planning and smoothing results for both **10×10** and **30×30** grid environments using different algorithms and techniques.
 
 ---
 
-### 30x30 Grid
+## 10×10 Grid
 
-| Dijkstra | Simplified (CLOSPO + DAPPA) | After P Controller | Quadratic Bezier | Rational Quadratic Bezier |
+### Dijkstra-Based Paths
+
+| Dijkstra | Simplified (CLOSPO + DAPPA) | After P Controller | Quadratic Bézier | Rational Quadratic Bézier |
+|:--------:|:---------------------------:|:------------------:|:----------------:|:-------------------------:|
+| ![](images/10x10_dijkstra.png) | ![](images/10x10_simplified.png) | ![](images/10x10_p_controller.png) | ![](images/10x10_quadratic_bezier.png) | ![](images/10x10_rational_quadratic_bezier.png) |
+
+### A*-Based Paths
+
+| A* | Simplified (CLOSPO + DAPPA) | After P Controller | Quadratic Bézier | Rational Quadratic Bézier |
+|:--------:|:---------------------------:|:------------------:|:----------------:|:-------------------------:|
+| ![](images/10x10_a.png) | ![](images/10x10_a_simplified.png) | ![](images/10x10_a_p_controller.png) | ![](images/10x10_a_quadratic_bezier.png) | ![](images/10x10_a_rational_quadratic_bezier.png) |
+
+---
+
+## 30×30 Grid
+
+### Dijkstra-Based Paths
+
+| Dijkstra | Simplified (CLOSPO + DAPPA) | After P Controller | Quadratic Bézier | Rational Quadratic Bézier |
 |:--------:|:---------------------------:|:------------------:|:----------------:|:-------------------------:|
 | ![](images/30x30_dijkstra.png) | ![](images/30x30_simplified.png) | ![](images/30x30_p_controller.png) | ![](images/30x30_quadratic_bezier.png) | ![](images/30x30_rational_quadratic_bezier.png) |
+
+### A*-Based Paths
+
+| A* | Simplified (CLOSPO + DAPPA) | After P Controller | Quadratic Bézier | Rational Quadratic Bézier |
+|:--------:|:---------------------------:|:------------------:|:----------------:|:-------------------------:|
+| ![](images/30x30_a.png) | ![](images/30x30_a_simplified.png) | ![](images/30x30_a_p_controller.png) | ![](images/30x30_a_quadratic_bezier.png) | ![](images/30x30_a_rational_quadratic_bezier.png) |
+
+---
 
 
