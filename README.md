@@ -80,3 +80,20 @@ Further streamline the path by directly connecting waypoints that are visible to
 
 ---
 
+## Results
+
+### 10x10 Grid
+
+| Dijkstra | Simplified (CLOSPO + DAPPA) | After P Controller | Quadratic Bezier | Rational Quadratic Bezier |
+|:--------:|:---------------------------:|:------------------:|:----------------:|:-------------------------:|
+| ![](images/10x10_dijkstra.png) | ![](images/10x10_simplified.png) | ![](images/10x10_p_controller.png) | ![](images/10x10_quadratic_bezier.png) | ![](images/10x10_rational_quadratic_bezier.png) |
+
+---
+
+### 30x30 Grid
+
+| Dijkstra | Simplified (CLOSPO + DAPPA) | After P Controller | Quadratic Bezier | Rational Quadratic Bezier |
+|:--------:|:---------------------------:|:------------------:|:----------------:|:-------------------------:|
+| ![](images/30x30_dijkstra.png) | ![](images/30x30_simplified.png) | ![](images/30x30_p_controller.png) | ![](images/30x30_quadratic_bezier.png) | ![](images/30x30_rational_quadratic_bezier.png) |
+
+
