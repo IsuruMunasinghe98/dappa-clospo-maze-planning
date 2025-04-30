@@ -1,4 +1,4 @@
-# Depth-first search algorithm
+# Breadth-first search algorithm
 
 class Point:
     def __init__(self, x: int, y: int):
