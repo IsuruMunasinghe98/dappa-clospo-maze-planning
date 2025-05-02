@@ -2,7 +2,7 @@
 Main Script: Path Planning, Simplification, Smoothing, and Visualization
 
 Before running this file:
-------------------------------------------------
+---------------------------------------------
 1. Ensure all helper functions are loaded:
    - path_planning_algorithms/: path planning functions
    - path_smoothing/: contains smoothing functions like P-controller, Bezier curve generators
@@ -13,7 +13,7 @@ Before running this file:
    into the file: grid_data.py
 
 This main script then:
-------------------------------------------------
+---------------------------------------------
 - Finds paths using origibal algorithm
 - Simplifies the paths
 - Applies smoothing techniques (P-controller, Quadratic Bezier, Rational Quadratic Bezier)
@@ -85,9 +85,9 @@ for i, (ax, grid) in enumerate(zip(axes, grid_data)):
     # Plot different paths
     ax.plot(x_dijkstra, y_dijkstra, 'r-', label='Dijkstra')
     ax.plot(x_simplified, y_simplified, 'g-', label='Simplified Dijkstra')
-    ax.plot(x_controlled, y_controlled, 'b-', label='P-Controlled Simplified Dijkstra')
-    ax.plot(x_quadratic_bezier, y_quadratic_bezier, 'm-', label='Quadratic Bezier Curve')
-    ax.plot(x_rational_quadratic_bezier, y_rational_quadratic_bezier, 'c-', label='Rational Quadratic Bezier Curve')
+    ax.plot(x_controlled, y_controlled, 'b-', label='P-Controlled Simplified Dijkstra') # P-controller
+    ax.plot(x_quadratic_bezier, y_quadratic_bezier, 'm-', label='Quadratic Bezier Curve') # Quadratic Bezier Curve
+    ax.plot(x_rational_quadratic_bezier, y_rational_quadratic_bezier, 'c-', label='Rational Quadratic Bezier Curve') # Rational Quadratic Bezier Curve
 
     ax.legend()
     ax.set_title(f"Grid {i+1} Path Planning Visualization")
