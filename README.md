@@ -60,7 +60,7 @@ Refine the path by reducing unnecessary directional changes and removing redunda
 
 **Benefits**  
 - Reduces unnecessary mechanical movement.
-- Improves smoothness and travel efficiency.
+- Improves path optimality and travel efficiency.
 
 ---
 
