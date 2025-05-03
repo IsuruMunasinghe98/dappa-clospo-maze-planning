@@ -118,6 +118,19 @@ This section presents the path planning and smoothing results for both **10×10*
 
 ---
 
+## Path Planning Simulation Results
+
+This repository includes Webots simulation videos of the e-puck robot navigating a 10×10 maze using:
+
+- **Left**: Standard A* algorithm  
+- **Right**: Optimized path using DAPPA + CLOSPO + Bézier smoothing
+
+<div align="center">
+  <img src="images/videos/original-A-star.gif" width="45%" style="margin-right: 5px;"/>
+  <img src="images/videos/post-processed-A-star.gif" width="45%" />
+</div>
+
+---
 
 ## Citation
 
