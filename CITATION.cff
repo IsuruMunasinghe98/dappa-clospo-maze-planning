@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+authors:
+- family-names: "Munasinghe"
+  given-names: "Isuru"
+  orcid: "https://orcid.org/0009-0005-0910-9795"
+title: "dappa-clospo-maze-planning"
+version: 1.0.0
+date-released: 2025-04-30
+url: "https://github.com/IsuruMunasinghe98/dappa-clospo-maze-planning"
