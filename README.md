@@ -126,9 +126,14 @@ This repository includes Webots simulation videos of the e-puck robot navigating
 - **Right**: Optimized path using DAPPA + CLOSPO + Bézier smoothing
 
 <div align="center">
-  <img src="images/videos/original-A-star.gif" width="45%" style="margin-right: 5px;"/>
-  <img src="images/videos/post-processed-A-star.gif" width="45%" />
+  <span style="display: inline-block; margin-right: 10px;">
+    <img src="images/videos/A-star.gif" width="40%" />
+  </span>
+  <span style="display: inline-block;">
+    <img src="images/videos/post-processed-A-star.gif" width="40%" />
+  </span>
 </div>
+
 
 ---
 
