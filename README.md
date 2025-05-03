@@ -119,3 +119,18 @@ This section presents the path planning and smoothing results for both **10×10*
 ---
 
 
+## Citation
+
+If you use this repository in your research or development work, please cite it using the following:
+
+```bibtex
+@misc{munasinghe2025dappa,
+  author       = {Isuru Munasinghe},
+  title        = {DAPPA-CLOSPO Maze Planning},
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/IsuruMunasinghe98/dappa-clospo-maze-planning}},
+  note         = {Accessed: 2025-04-30}
+}
+
+
