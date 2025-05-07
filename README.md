@@ -134,7 +134,6 @@ This includes Webots simulation of the e-puck robot navigating a 10×10 maze usi
   </span>
 </div>
 
-
 ---
 
 ## Citation
