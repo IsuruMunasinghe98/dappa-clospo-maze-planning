@@ -133,7 +133,6 @@ This includes Webots simulation of the e-puck robot navigating a 10×10 maze usi
     <img src="images/videos/post-processed-A-star.gif" width="40%" />
   </span>
 </div>
-
 ---
 
 ## Citation
