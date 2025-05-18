@@ -148,5 +148,3 @@ If you use this repository in your research or development work, please cite it 
   howpublished = {\url{https://github.com/IsuruMunasinghe98/dappa-clospo-maze-planning}},
   note         = {Accessed: 2025-04-30}
 }
-
-
