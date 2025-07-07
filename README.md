@@ -1,4 +1,4 @@
-⚠️ **Note:** The associated paper describing this work is currently under review. The full codebase implementing DAPPA, CLoSPO, and the trajectory smoothing techniques will be made publicly available after the paper has been accepted for publication.**
+⚠️ **Note:** The associated paper describing this work is currently under review. The full codebase implementing DAPPA, CLoSPO, and the trajectory smoothing techniques will be made publicly available after the paper has been accepted for publication.
 
 # dappa-clospo-maze-planning
 This repository presents a post-processing framework combining the Direction-Aware Path Planning Approach (DAPPA) and Constrained Line-of-Sight Path Optimization (CLoSPO).
