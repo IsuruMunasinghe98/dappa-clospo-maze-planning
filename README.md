@@ -148,3 +148,6 @@ If you use this repository in your research or development work, please cite it 
   howpublished = {\url{https://github.com/IsuruMunasinghe98/dappa-clospo-maze-planning}},
   note         = {Accessed: 2025-04-30}
 }
+
+
+<p style="color:red;"> <strong>Note:</strong> The full codebase implementing DAPPA, CLOSPO, and the trajectory smoothing techniques will be made publicly available after the associated paper has been accepted for publication. </p>
